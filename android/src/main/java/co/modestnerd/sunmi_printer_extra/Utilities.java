@@ -1,4 +1,4 @@
-package android.src.main.java.co.modestnerd.sunmi_printer_extra;
+package co.modestnerd.sunmi_printer_extra;
 
 import android.graphics.Bitmap;
 
