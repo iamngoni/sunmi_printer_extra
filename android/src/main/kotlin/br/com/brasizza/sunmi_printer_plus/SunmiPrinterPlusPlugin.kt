@@ -1,4 +1,4 @@
-package br.com.brasizza.sunmi_printer_plus
+package co.modestnerd.sunmi_printer_extra
 
 import androidx.annotation.NonNull
 
@@ -17,7 +17,7 @@ class SunmiPrinterPlusPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "sunmi_printer_plus")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "sunmi_printer_extra")
     channel.setMethodCallHandler(this)
   }
 

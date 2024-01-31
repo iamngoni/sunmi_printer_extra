@@ -35,7 +35,7 @@ class SunmiPrinter {
   ///*sunmi_printer_plus
   ///
   //A callable method to start the comunitation with the native code!
-  static const MethodChannel _channel = MethodChannel('sunmi_printer_plus');
+  static const MethodChannel _channel = MethodChannel('sunmi_printer_extra');
 
   ///*bindingPrinter*
   ///

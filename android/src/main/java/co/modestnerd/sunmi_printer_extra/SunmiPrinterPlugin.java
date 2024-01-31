@@ -34,7 +34,7 @@ public class SunmiPrinterPlugin implements FlutterPlugin, MethodCallHandler {
       @NonNull FlutterPluginBinding flutterPluginBinding) {
     final MethodChannel channel = new MethodChannel(
         flutterPluginBinding.getBinaryMessenger(),
-        "sunmi_printer_plus");
+        "sunmi_printer_extra");
     sunmiPrinterMethod = new SunmiPrinterMethod(flutterPluginBinding.getApplicationContext());
     channel.setMethodCallHandler(this);
   }
