@@ -5,7 +5,7 @@ homepage: https://github.com/iamngoni/sunmi_printer_extra/
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
-  flutter: ">=1.10.0"
+  flutter: ">=2.2.0"
 
 dependencies:
   flutter:
