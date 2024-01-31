@@ -19,7 +19,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: android.src.main.java.co.modestnerd.sunmi_printer_extra
+        package: co.modestnerd.sunmi_printer_extra
         pluginClass: SunmiPrinterPlugin
       ios:
         pluginClass: SunmiPrinterPlusPlugin
