@@ -2,13 +2,14 @@ group 'co.modestnerd.sunmi_printer_extra'
 version '1.0'
 
 buildscript {
+    ext.kotlin_version = '1.7.10'
     repositories {
         google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.1'
+        classpath 'com.android.tools.build:gradle:7.3.0'
     }
 }
 
